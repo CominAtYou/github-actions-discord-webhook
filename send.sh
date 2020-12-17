@@ -9,12 +9,12 @@ AVATAR="https://github.com/actions.png"
 
 # More info: https://www.gnu.org/software/bash/manual/bash.html#Shell-Parameter-Expansion
 case ${1,,} in
-  "success" )
+  "Success" )
     EMBED_COLOR=3066993
     STATUS_MESSAGE="Passed"
     ;;
 
-  "failure" )
+  "Failure" )
     EMBED_COLOR=15158332
     STATUS_MESSAGE="Failed"
     ;;
